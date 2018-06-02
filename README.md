@@ -1,0 +1,2 @@
+# admin
+beego admin
