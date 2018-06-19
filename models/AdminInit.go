@@ -1,17 +1,16 @@
 package models
 
 import (
+	. "admin/lib"
 	"database/sql"
 	"fmt"
-	"log"
-	"os"
-
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	_ "github.com/Go-SQL-Driver/MySQL"
+	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
-	. "managerSystem/lib"
+	"log"
+	"os"
 )
 
 var o orm.Ormer
@@ -31,11 +30,11 @@ func Syncdb() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	//insertUser()
-	//insertGroup()
-	//insertRole()
-	//insertNodes()
-	fmt.Println("database init is complete.\nPlease restart the application")
+	insertUser()
+	insertGroup()
+	insertRole()
+	insertNodes()
+	fmt.Println("1111database init is complete.\nPlease restart the application")
 
 }
 

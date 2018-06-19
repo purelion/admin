@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
+	m "admin/models"
 	"github.com/astaxie/beego/orm"
-	m "managerSystem/models"
 )
 
 type RoleController struct {

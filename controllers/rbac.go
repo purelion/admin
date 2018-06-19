@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
+	. "admin/lib"
+	m "admin/models"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
-	. "managerSystem/lib"
-	m "managerSystem/models"
 )
 
 //check access and register user's nodes

@@ -1,9 +1,9 @@
 package main
 
 import (
+	"admin/models"
+	_ "admin/routers"
 	"github.com/astaxie/beego"
-	"managerSystem/models"
-	_ "managerSystem/routers"
 	"mime"
 	"strconv"
 )
@@ -27,7 +27,6 @@ func main() {
 
 	models.Syncdb()
 	mime.AddExtensionType(".css", "text/css")
-
 	beego.AddFuncMap("stringsToJson", StringsToJson)
 	beego.Run()
 }

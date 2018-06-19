@@ -3,8 +3,8 @@ package controllers
 import (
 	"encoding/json"
 
+	m "admin/models"
 	"github.com/astaxie/beego/orm"
-	m "managerSystem/models"
 )
 
 type NodeController struct {

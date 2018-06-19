@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	m "managerSystem/models"
+	m "admin/models"
 )
 
 type UserController struct {

@@ -2,9 +2,9 @@ package controllers
 
 import (
 	//"fmt"
+	m "admin/models"
 	"fmt"
 	"github.com/astaxie/beego"
-	m "managerSystem/models"
 )
 
 type MainController struct {

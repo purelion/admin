@@ -1,8 +1,8 @@
 package controllers
 
 import (
+	m "admin/models"
 	"github.com/astaxie/beego"
-	m "managerSystem/models"
 )
 
 type CommonController struct {

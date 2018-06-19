@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
+	. "admin/lib"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	"github.com/astaxie/beego/validation"
-	. "managerSystem/lib"
 )
 
 //用户表

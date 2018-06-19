@@ -1,8 +1,8 @@
 package controllers
 
 import (
+	m "admin/models"
 	"fmt"
-	m "managerSystem/models"
 )
 
 type GroupController struct {
